@@ -177,3 +177,9 @@ for_window [title="Spotify - Linux Preview"] floating enable
 
 #fonts
 font pango:Liberation Sans Mono 10
+
+# Window decoration configuration stuff
+new_window border 1pixel
+bindsym mod1+t border normal
+bindsym mod1+y border 1pixel
+bindsym mod1+u border none
