@@ -167,7 +167,6 @@ exec thunar --daemon
 exec nm-applet
 exec compton
 exec nitrogen --restore
-exec pnmixer
 exec gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg
 exec xflux -z [YOUR ZIPCODE]
 
@@ -179,7 +178,7 @@ for_window [title="Spotify - Linux Preview"] floating enable
 font pango:Liberation Sans Mono 10
 
 # Window decoration configuration stuff
-new_window border 1pixel
+new_window 1pixel
 bindsym mod1+t border normal
 bindsym mod1+y border 1pixel
 bindsym mod1+u border none
