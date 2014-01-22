@@ -171,7 +171,7 @@ exec gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg
 exec xflux -z [YOUR ZIPCODE]
 
 # Specify which windows should float
-for_window [title="xfce4-notifyd"] floating enable
+for_window [title="xfce4-notifyd"] floating enable border none
 for_window [title="Spotify - Linux Preview"] floating enable
 
 #fonts
