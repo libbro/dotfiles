@@ -169,6 +169,7 @@ exec compton
 exec nitrogen --restore
 exec gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg
 exec xflux -z [YOUR ZIPCODE]
+exec synclient TapButton1=1
 
 # Specify which windows should float
 for_window [title="xfce4-notifyd"] floating enable border none
