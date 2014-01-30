@@ -170,6 +170,7 @@ exec nitrogen --restore
 exec gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg
 exec xflux -z [YOUR ZIPCODE]
 exec synclient TapButton1=1
+exec xmodmap -e "pointer = 1 2 3 5 4"
 
 # Specify which windows should float
 for_window [title="xfce4-notifyd"] floating enable border none
