@@ -49,8 +49,8 @@ URxvt*foreground: #eeeeec
 URxvt*background: #2E3436 
 URxvt*cursorColor: #eeeeec
 URxvt.matcher.button: 1
-URxvt*font: xft:Liberation Mono:pixelsize=13:antialias=true:hinting=true
-URxvt*boldFont: xft:Liberation Mono:bold:pixelsize=13:antialias=true:hinting=true
+URxvt*font: xft:Inconsolata:pixelsize=13:antialias=true:hinting=true
+URxvt*boldFont: xft:Inconsolata:bold:pixelsize=13:antialias=true:hinting=true
 ! foreground color for underline
 URxvt*colorUL: #8ae234
 ! line color for underline
