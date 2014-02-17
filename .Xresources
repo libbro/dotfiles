@@ -51,8 +51,9 @@ URxvt.keysym.F11:       perl:fullscreen:switch
 
 URxvt*cursorColor: #eeeeec
 URxvt.matcher.button: 1
-URxvt*font: xft:Inconsolata:pixelsize=13:antialias=true:hinting=true
-URxvt*boldFont: xft:Inconsolata:bold:pixelsize=13:antialias=true:hinting=true
+URxvt*font: -misc-orp-medium-r-*-*-12-110-75-75-*-60-iso10646-*
+URxvt*boldFont: -misc-orp-bold-r-*-*-*-*-*-*-*-*-iso10646-1
+URxvt*italicFont: -misc-orp-*-i-*-*-*-*-*-*-*-*-iso10646-1
 
 ! Tango color scheme, uncomment if needed
 ! foreground color for underline
