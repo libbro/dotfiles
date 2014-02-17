@@ -184,3 +184,6 @@ new_window 1pixel
 bindsym mod1+t border normal
 bindsym mod1+y border 1pixel
 bindsym mod1+u border none
+
+# Rebooting and shutting down goodness
+bindsym mod4+x exec i3-nagbar -m "Select one" -b "Shutdowm" 'dbus-send --system --print-reply --dest="org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Stop' -b "Reboot" 'dbus-send --system --print-reply --dest="org.freedesktop.ConsoleKit" /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Restart'
