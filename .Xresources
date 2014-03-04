@@ -57,9 +57,8 @@ URxvt*italicFont: -misc-orp-*-i-*-*-*-*-*-*-*-*-iso10646-1
 
 ! Main colors 
 ! Solarized
-
-URxvt*background: #003435
-URxvt*foreground: #c8c6c6
+URxvt*background: #002b36
+URxvt*foreground: #657b83
 
 ! black dark/light
 URxvt*color0: #073642
