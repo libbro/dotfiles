@@ -55,89 +55,40 @@ URxvt*font: -misc-orp-medium-r-*-*-12-110-75-75-*-60-iso10646-*
 URxvt*boldFont: -misc-orp-bold-r-*-*-*-*-*-*-*-*-iso10646-1
 URxvt*italicFont: -misc-orp-*-i-*-*-*-*-*-*-*-*-iso10646-1
 
-! Tango color scheme, uncomment if needed
-! foreground color for underline
-! URxvt*colorUL: #8ae234
-! line color for underline
-! URxvt*underlineColor: #92659a
-! black dark/light
-! URxvt*color0: #000000
-! URxvt*color8: #555753
-! red dark/light
-! URxvt*color1: #cc0000
-! URxvt*color9: #ef2929
-!
-! green dark/light
-! URxvt*color2: #4e9a06
-! URxvt*color10: #8ae234
-! yellow dark/light
-! URxvt*color3: #edd400
-! URxvt*color11: #fce94f
-! blue dark/light
-! URxvt*color4: #3465a4
-! URxvt*color12: #729fcf
-! magenta dark/light
-! URxvt*color5: #92659a
-! URxvt*color13: #c19fbe
-! cyan dark/light
-! URxvt*color6: #07c7ca
-! URxvt*color14: #63e9e9
-! white dark/light
-! URxvt*color7: #d3d7cf
-! URxvt*color15: #eeeeec
-
-! My new custom color scheme 
 ! Main colors 
+! Solarized
 
 URxvt*background: #003435
 URxvt*foreground: #c8c6c6
 
-! other colors
-
-! black
-URxvt*color0: #1b1819
-
-! bright_black
-URxvt*color8: #484646
-
-! red
-URxvt*color1: #e7424a
-
-! bright_red
-URxvt*color9: #e78e93
-
-! green
-URxvt*color2: #4ce442
-
-! bright_green
-URxvt*color10: #95e48e
-
-! yellow
-URxvt*color3: #e7dc42
-
-! bright_yellow
-URxvt*color11: #e7e08e
-
-! blue
-URxvt*color4: #444ae5
-
-! bright_blue
-URxvt*color12: #9093e5
-
-! magenta
-URxvt*color5: #df42e5
-
-! bright_magenta
-URxvt*color13: #e38ee5
-
-! cyan
-URxvt*color6: #44e4dd
-
-! bright_cyan
-URxvt*color14: #90e4e1
-
-! white
-URxvt*color7: #c8c6c6
-
-! bright_white
-URxvt*color15: #e7e4e5
+! black dark/light
+URxvt*color0: #073642
+URxvt*color8: #002b36
+ 
+! red dark/light
+URxvt*color1: #dc322f
+URxvt*color9: #cb4b16
+  
+! green dark/light
+URxvt*color2: #859900
+URxvt*color10: #586e75
+   
+! yellow dark/light
+URxvt*color3: #b58900
+URxvt*color11: #657b83
+    
+! blue dark/light
+URxvt*color4: #268bd2
+URxvt*color12: #839496
+     
+! magenta dark/light
+URxvt*color5: #d33682
+URxvt*color13: #6c71c4
+      
+! cyan dark/light
+URxvt*color6: #2aa198
+URxvt*color14: #93a1a1
+       
+! white dark/light
+URxvt*color7: #eee8d5
+URxvt*color15: #fdf6e3
