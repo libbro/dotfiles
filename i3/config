@@ -204,3 +204,9 @@ client.focused          #4c7899 #285577 #ffffff #2e9ef4
 client.focused_inactive #333333 #5f676a #ffffff #484e50
 client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
+
+#cmus goodies
+bindsym Mod1+p exec cmus-remote -u #pause
+bindsym Mod1+n exec cmus-remote -n #next
+bindsym Mod1+b exec cmus-remote -r #previous
+bindsym Mod1+r exec cmus-remote -R #repeat
