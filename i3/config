@@ -145,8 +145,8 @@ bindsym Mod4+r mode "resize"
 # finds out, if available)
 bar {
         status_command ~/bin/cmus.sh 
+	font -misc-orp-medium-r-*-*-12-110-75-75-*-60-iso10646-*
 
-        font pango:Liberation Sans Mono 10
 }
 
 #######################################################################
@@ -177,7 +177,7 @@ for_window [title="xfce4-notifyd"] floating enable border none
 for_window [title="Spotify - Linux Preview"] floating enable
 
 #fonts
-font pango:Liberation Sans Mono 10
+font -misc-orp-medium-r-*-*-12-110-75-75-*-60-iso10646-*
 
 # Window decoration configuration stuff
 new_window 1pixel
