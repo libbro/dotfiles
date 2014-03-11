@@ -8,7 +8,7 @@ artist=$(cmus-remote -Q | grep "tag artist" | cut -d ' ' -f 3-)
 	read line
 	#Uses the pidof command to determine whether cmus is running or not, if it is true then it will return the info
 	if [ $(pidof cmus) > 0 ]; then
-	dat=$(echo "$song - $artist")
+	dat=$(echo "$artist - $song")
 	dat="[{ \"full_text\": \"${dat}\" },"
 	echo "${line/[/$dat}" || exit 1
 else
