@@ -152,7 +152,7 @@ colors {
 
 #			   text    backgrd
         focused_workspace  #ffffff #268bd2
-        active_workspace   #eee8d5 #900000 
+        active_workspace   #eee8d5 #002b36 
         urgent_workspace   #ffffff #900000
 
     }
