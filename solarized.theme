@@ -1,8 +1,8 @@
 # irssi theme for the Solarized color palette
-# (Adapted from default theme distributed with irssi 0.8.15 circa 2011-04-25)
+# (Adapted from Huy Z's solarized theme. Source: https://github.com/huyz/irssi-colors-solarized)
 #
-# Adaptation by: Huy Z
-# Source: https://github.com/huyz/irssi-colors-solarized
+# Adaptation by: libbro
+# 
 #
 
 # When testing changes, the easiest way to reload the theme is with /RELOAD.
