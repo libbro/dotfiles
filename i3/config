@@ -205,11 +205,16 @@ client.focused_inactive #333333 #002b36 #ffffff #484e50
 client.unfocused        #333333 #222222 #888888 #292d2e
 client.urgent           #2f343a #900000 #ffffff #900000
 
-#cmus (and now Spotify) goodies
-bindsym Mod1+p exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause && cmus-remote -u #pause/play
-bindsym Mod1+n exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next && cmus-remote -n #next
-bindsym Mod1+b exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous && cmus-remote -r #previous
+#cmus goodies
+bindsym Mod1+p exec cmus-remote -u #pause/play
+bindsym Mod1+n cmus-remote -n #next
+bindsym Mod1+b cmus-remote -r #previous
 bindsym Mod1+r exec cmus-remote -R #repeat
+
+#Spotify goodies
+bindsym Mod1+Shift+p exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause #pause/play
+bindsym Mod1+Shift+n exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next #next
+bindsym Mod1+Shift+b exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous #previous
 
 #Rename workspace
 bindsym Mod1+l exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
