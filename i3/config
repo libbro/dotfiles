@@ -207,8 +207,8 @@ client.urgent           #2f343a #900000 #ffffff #900000
 
 #cmus goodies
 bindsym Mod1+p exec cmus-remote -u #pause/play
-bindsym Mod1+n cmus-remote -n #next
-bindsym Mod1+b cmus-remote -r #previous
+bindsym Mod1+n exec cmus-remote -n #next
+bindsym Mod1+b exec cmus-remote -r #previous
 bindsym Mod1+r exec cmus-remote -R #repeat
 
 #Spotify goodies
